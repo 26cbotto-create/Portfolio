@@ -10,7 +10,9 @@ body, html {
 }
 
 header {
+    padding: 10px;
     flex: 0 0 150px;
+    color: white;
 }
 
 .center {
@@ -31,8 +33,7 @@ main {
 
 ul {
     list-style-type: none;
-    position: sticky;
-    top: 0;
+    position: fixed;
 }
 
 ul li {
@@ -49,18 +50,10 @@ section {
     background-color: red;
 }
 
-.blue {
-    background-color: blue;
-}
-
 .green {
     background-color: green;
 }
 
-.yellow {
-    background-color: yellow;
-}
-
-.brown {
-    background-color: brown;
+.black {
+    background-color: black;
 }
