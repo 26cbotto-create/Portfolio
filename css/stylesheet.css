@@ -1,6 +1,6 @@
 body, html {
-    height: 100%;
-    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -9,7 +9,7 @@ body, html {
     flex-direction: column;
 }
 
-header, footer {
+header {
     flex: 0 0 150px;
 }
 
@@ -21,16 +21,28 @@ header, footer {
     justify-content: center;
 }
 
-nav, aside {
+nav {
     flex: 1;
 }
 
 main {
-    flex: 3;
+    flex: 4;
 }
 
 ul {
     list-style-type: none;
+    position: sticky;
+    top: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+section {
+    margin: 10px;
+    padding: 10px;
+    height: 500px;
 }
 
 .red {
