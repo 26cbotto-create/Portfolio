@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    flex: 0 0 150px;
+}
+
+.center {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+nav, aside {
+    flex: 1;
+}
+
+main {
+    flex: 3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.brown {
+    background-color: brown;
+}
