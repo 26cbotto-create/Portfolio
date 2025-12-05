@@ -1,18 +1,13 @@
 body, html {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .container {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-}
-
-header {
-    padding: 10px;
-    flex: 0 0 150px;
-    color: white;
 }
 
 .center {
@@ -46,14 +41,11 @@ section {
     height: 500px;
 }
 
-.red {
-    background-color: red;
+
+#home, #about, #education, #experience, #portfolio, #volunteering, #awards {
+    scroll-behavior: smooth;
 }
 
-.green {
-    background-color: green;
-}
-
-.black {
-    background-color: black;
+.contact p {
+    display: inline;
 }
