@@ -26,7 +26,7 @@ main {
     flex: 4;
 }
 
-ul {
+.jumplinks {
     list-style-type: none;
     position: fixed;
 }
@@ -38,14 +38,17 @@ ul li {
 section {
     margin: 10px;
     padding: 10px;
-    height: 500px;
 }
 
 
-#home, #about, #education, #experience, #portfolio, #volunteering, #awards {
+#about, #education, #experience, #portfolio, #awards {
     scroll-behavior: smooth;
 }
 
 .contact p {
     display: inline;
+}
+
+ul.ap_scores li {
+    margin: 5px 0;
 }
