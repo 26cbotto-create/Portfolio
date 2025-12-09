@@ -41,11 +41,10 @@ main {
     list-style-type: none;
     flex: 1;
     position: fixed;
-    top: 30%;
+    top: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size:  2rem;
     font-weight: bold;
 }
 
@@ -59,14 +58,87 @@ section {
 }
 
 
-#about, #education, #experience, #portfolio, #awards {
+#corrado, #about, #education, #experience, #portfolio, #awards {
     scroll-behavior: smooth;
+}
+
+.contact a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: orange;
 }
 
 .contact p {
     display: inline;
+    color: yellow;
+    font-size: 2.5rem;
 }
 
 ul.ap_scores li {
+    font-size: 1.25rem;
     margin: 0.25rem 0;
+}
+
+.main-colors {
+    background-color: maroon;
+    color: white;
+}
+
+.nav-colors {
+    background-color: #ffac1c;
+}
+
+li a {
+    text-decoration: none;
+    color: #c80000;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #8E7618;
+}
+
+h1 {
+    font-size: 5.61rem;
+}
+
+h2 {
+    font-size: 4.209rem;
+}
+
+h3 {
+    font-size: 3.157rem;
+}
+
+h4 {
+    font-size: 2.369rem;
+}
+
+p, li {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+a {
+    font-size: 2.5rem
+}
+
+h1, h2, h3, h4 {
+    font-family: "Zalando Sans", sans-serif;
+}
+
+main p {
+    font-family: "TASA Orbiter", sans-serif;
+}
+
+nav {
+    font-family: "DM Serif Text", serif;
+}
+
+.contact {
+    font-family: "Newsreader", serif;
 }
