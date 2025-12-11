@@ -53,8 +53,12 @@ ul li {
 }
 
 section {
-    margin: 0.5rem;
-    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0rem;
 }
 
 
@@ -84,8 +88,8 @@ ul.ap_scores li {
 }
 
 .main-colors {
-    background-color: maroon;
-    color: white;
+    background-color: #6f2925;
+    color: #b3c3c1;
 }
 
 .nav-colors {
@@ -141,4 +145,17 @@ nav {
 
 .contact {
     font-family: "Newsreader", serif;
+}
+
+.videos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+
+}
+
+.video1, .video2, .video3, .video4, .video5, .video6 {
+    flex: 1;
 }
