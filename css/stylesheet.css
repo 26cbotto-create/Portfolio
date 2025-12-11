@@ -35,6 +35,12 @@ main {
     border-radius: 50%;
     margin-bottom: 1.25rem;
     display: block;
+    transition-duration: 0.5s;
+}
+
+.headshot:hover {
+    transform: scale(1.15);
+
 }
 
 .jumplinks {
