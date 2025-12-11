@@ -55,10 +55,10 @@ ul li {
 section {
     margin-left: 0.5rem;
     margin-bottom: 0.5rem;
-    margin-top: 0rem;
+    margin-right: 0.5rem;
     padding-left: 0.5rem;
     padding-bottom: 0.5rem;
-    padding-top: 0rem;
+    padding-right: 0.5rem;
 }
 
 
@@ -153,7 +153,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 3rem;
-
+    justify-content: space-between;
+    align-items: space-between;
 }
 
 .video1, .video2, .video3, .video4, .video5, .video6 {
