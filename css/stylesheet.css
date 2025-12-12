@@ -169,3 +169,23 @@ nav {
 .video1, .video2, .video3, .video4, .video5, .video6 {
     flex: 1;
 }
+
+.hero-image {
+    background-image: url('../images/HOTC_performance.jpg');
+    height: 20%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+}
+
+.hero-text {
+    text-align: start;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffac1c;
+}
